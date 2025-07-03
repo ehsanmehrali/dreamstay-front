@@ -1,6 +1,5 @@
-import React from "react";
 import { Menu } from "lucide-react";
-import logo from "../assets/logo.png"; // مسیر لوگو
+import logo from "../assets/logo.png";
 
 export default function Header() {
   return (
@@ -10,7 +9,7 @@ export default function Header() {
 
       {/* Right Side: Login + Menu */}
       <div className="flex items-center gap-2">
-        <button className="text-xs bg-lime-300 hover:bg-lime-400 text-gray-800 font-semibold py-1 px-3 rounded-full">
+        <button className="text-xs primary font-semibold py-1 px-3 rounded-full">
           LOGIN / SIGNUP
         </button>
         <Menu size={22} className="text-gray-700" />
