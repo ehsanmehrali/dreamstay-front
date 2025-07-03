@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@utility primary {
+  color: oklch(0.3191 0.0604 21.01);
+  background-color: oklch(0.8765 0.1524 112.01);
+  &:hover {
+    background-color: oklch(0.8018 0.1352 11.22);
+  }
+}
