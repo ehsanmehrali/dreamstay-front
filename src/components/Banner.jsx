@@ -1,8 +1,10 @@
+import banner from "../assets/banner.jpg";
+
 export default function Banner() {
   return (
     <div className="relative rounded-xl overflow-hidden mx-4 mt-4">
       <img
-        src="/src/assets/banner.jpg"
+        src={banner}
         alt="Dream Stay Banner"
         className="w-full h-auto object-cover rounded-xl "
       />
